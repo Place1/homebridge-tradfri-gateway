@@ -1,0 +1,44 @@
+{
+  "name": "homebridge-tradfri-gateway",
+  "version": "1.0.0",
+  "description": "A homebridge platform plugin for the IDEA Tradfri Gateway",
+  "author": "James Batt",
+  "license": "MIT",
+  "main": "build/index.js",
+  "scripts": {
+    "prebuild": "rm -r ./build",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "node-tradfri-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0",
+    "@types/node": "^15.0.0",
+    "homebridge": "^1.3.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Place1/homebridge-tradfri-gateway.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "ikea",
+    "homebridge",
+    "tradfri"
+  ],
+  "engines": {
+    "homebridge": ">=1.0.0"
+  },
+  "files": [
+    "build/**/*",
+    "config.schema.json"
+  ],
+  "prettier": {
+    "printWidth": 120
+  }
+}

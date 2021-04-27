@@ -1,0 +1,18 @@
+{
+  "pluginAlias": "TradfriGateway",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "securityCode": {
+        "title": "security code",
+        "type": "string",
+        "required": true,
+        "description": "This code is found on the bottom of your Tradfri Gateway"
+      }
+    }
+  },
+  "form": null,
+  "display": null
+}

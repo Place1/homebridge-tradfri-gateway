@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "DevBridge 4B13",
+        "username": "0E:9A:68:1C:4B:13",
+        "port": 52045,
+        "pin": "031-45-154"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8000,
+            "platform": "config"
+        },
+        {
+            "name": "homebridge-tradfri-gateway",
+            "platform": "TradfriGateway",
+            "securityCode": ""
+        }
+    ]
+}
